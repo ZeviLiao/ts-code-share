@@ -41,7 +41,6 @@ project-a
 "files": ["dist/**/*"] - 這行告訴 npm 只包含 dist 目錄下的所有檔案  
 "main": "dist/index.js" - 指定套件的入口點  
 "types": "dist/index.d.ts" - 指定 TypeScript 型別定義檔案 
-
 ```bash
 cd project-a
 npm run build
@@ -54,6 +53,12 @@ project-b
 ```bash
 npm install @zeviliao/share-project-a
 ```
-
-
-    // "@zeviliao/share-project-a": "file:../project-a"
+local link project-a
+```js
+// "@zeviliao/share-project-a": "file:../project-a" 
+```
+quick setup script - chmod and ex
+```bash
+chmod +x setup.sh
+./setup.sh
+```
