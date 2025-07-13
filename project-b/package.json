@@ -1,0 +1,19 @@
+{
+  "name": "project-b",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Zevi Liao",
+  "license": "ISC",
+  "dependencies": {
+    "@ts-code-share/project-a": "file:../project-a"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
