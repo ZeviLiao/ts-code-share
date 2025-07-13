@@ -54,3 +54,6 @@ project-b
 ```bash
 npm install @zeviliao/share-project-a
 ```
+
+
+    // "@zeviliao/share-project-a": "file:../project-a"
