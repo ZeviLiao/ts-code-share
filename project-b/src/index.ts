@@ -1,2 +1,4 @@
-import { addFunc } from '@ts-code-share/project-a';
-console.log(addFunc(1, 2));
+import { addFunc } from '@zeviliao/share-project-a';
+
+const result = addFunc(5, 3);
+console.log('Result:', result);

@@ -1,19 +1,19 @@
 {
-  "name": "project-b",
+  "name": "@ts-code-share/project-b",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "clean": "rm -rf dist"
   },
-  "keywords": [],
-  "author": "Zevi Liao",
-  "license": "ISC",
   "dependencies": {
-    "@ts-code-share/project-a": "file:../project-a"
+    "@zeviliao/share-project-a": "file:../project-a"
   },
   "devDependencies": {
-    "@types/node": "^24.0.13",
-    "tsx": "^4.20.3",
-    "typescript": "^5.8.3"
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0"
   }
 }
